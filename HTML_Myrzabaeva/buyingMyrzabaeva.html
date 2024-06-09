@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Myrzabaeva</title>
+        <link rel="stylesheet" href="../CSS_Myrzabaeva/style_60630.css">
+        <script src="../JS_Myrzabaeva/scripts_60630.js"></script>
+    </head>
+    <body>
+        <header>
+            <header>
+                <h1>Datkaiym Myrzabaeva, 60630 </h1>
+                <h2>Deep Dive </h2>
+                <h4>Tariffs </h4>
+            </header>
+        </header>
+
+        <section id="sport">
+            <table>
+                <tr>
+                    <th>Activity </th>
+                    <th>Price </th>
+                </tr>
+                <tr>
+                    <td> <input type="text" oninput="updateInput('activityOne', this.value)"><br></td>
+                    <td><input type="price" oninput="updateInput('activityOnePrice', this.value)"></td>
+                </tr>
+                <tr>
+                    <td> <input type="text" oninput="updateInput('activityTwo', this.value)"><br></td>
+                    <td><input type="price" oninput="updateInput('activityTwoPrice', this.value)"></td>
+                </tr>
+                <tr>
+                    <td> <input type="text" oninput="updateInput('activityThree', this.value)"><br></td>
+                    <td><input type="price" oninput="updateInput('activityThreePrice', this.value)"></td>
+                </tr>
+                <tr>
+                    <td> <input type="text" oninput="updateInput('activityFour', this.value)"><br></td>
+                    <td><input type="price" oninput="updateInput('activityFourPrice', this.value)"></td>
+                </tr>
+            </table><br>
+            <button onclick="booking()">go to booking</button>
+        </section>
+        <br><br>
+
+        <section id="get"style="display: none;">
+            <table>
+                <tr>
+                    <th>Activity </th>
+                    <th>Price </th>
+                    <th>Times in a week </th>
+                </tr>
+                <tr>
+                    <td><input type="text" id="activityOne"><br></td>
+                    <td><input type="price" id="activityOnePrice"></td>
+                    <td>
+                        <select name="quantity" id="activityOneQuantity">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" id="activityTwo"><br></td>
+                    <td><input type="price" id="activityTwoPrice"></td>
+                    <td>
+                        <select name="quantity" id="activityTwoQuantity">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" id="activityThree"><br></td>
+                    <td><input type="price" id="activityThreePrice"></td>
+                    <td>
+                        <select name="quantity" id="activityThreeQuantity">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" id="activityFour"><br></td>
+                    <td><input type="price" id="activityFourPrice"></td>
+                    <td>
+                        <select name="quantity" id="activityFourQuantity">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                </tr>
+            </table><br>
+            <button onclick="get()">Get </button><br><br>
+        </section>
+
+        <footer>
+            <nav id="page_nav">
+                <a href="../indexMyrzabaeva.html">Homepage  </a><a>  </a>
+                <a href="../HTML_Myrzabaeva/imgAudioMyrzabaeva.html">Images & sounds  </a><a>  </a>
+                <a href="../HTML_Myrzabaeva/buyingMyrzabaeva.html">Buying </a>
+                </nav>
+            <h6>Deep Dive 2023 &copy;Myrzabaeva </h6>
+        </footer>
+    </body>
+</html>
